@@ -10,9 +10,9 @@ Group:		Window Manager/Hyprland/Utility
 BuildSystem:	cmake
 
 BuildRequires:	cmake
-BuildRequires:	pkgconfig(hyprlang) >=0.6.0
-BuildRequires:	pkgconfig(hyprutils) >=0.2.4
-BuildRequires:	pkgconfig(hyprtoolkit) >=0.2.2
+BuildRequires:	pkgconfig(hyprlang) >= 0.6.0
+BuildRequires:	pkgconfig(hyprutils) >= 0.2.4
+BuildRequires:	pkgconfig(hyprtoolkit) >= 0.2.2
 BuildRequires:	pkgconfig(pixman-1)
 BuildRequires:	pkgconfig(libdrm)
 
