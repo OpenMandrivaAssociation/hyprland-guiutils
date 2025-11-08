@@ -28,3 +28,6 @@ Hyprland GUI utilities (successor to hyprland-qtutils)
 %autosetup -p1
 
 %files
+%{_bindir}/hyprland-dialog
+%{_bindir}/hyprland-donate-screen
+%{_bindir}/hyprland-update-screen
