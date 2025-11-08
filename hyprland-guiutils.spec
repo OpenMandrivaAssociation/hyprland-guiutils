@@ -11,6 +11,7 @@ BuildSystem:	cmake
 
 BuildRequires:	cmake
 BuildRequires:  pkgconfig(aquamarine) >= 0.9.5
+BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(hyprgraphics) >= 0.2.0
 BuildRequires:	pkgconfig(hyprlang) >= 0.6.0
 BuildRequires:	pkgconfig(hyprutils) >= 0.2.4
