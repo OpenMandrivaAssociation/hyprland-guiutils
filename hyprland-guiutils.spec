@@ -10,6 +10,7 @@ Group:		Window Manager/Hyprland/Utility
 BuildSystem:	cmake
 
 BuildRequires:	cmake
+BuildRequires:  pkgconfig(aquamarine) >= 0.9.5
 BuildRequires:	pkgconfig(hyprlang) >= 0.6.0
 BuildRequires:	pkgconfig(hyprutils) >= 0.2.4
 BuildRequires:	pkgconfig(hyprtoolkit) >= 0.2.1
