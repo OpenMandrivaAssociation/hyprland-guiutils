@@ -1,6 +1,6 @@
 Name:		hyprland-guiutils
 Version:	0.1.0
-Release:	2
+Release:	3
 Source0:	https://github.com/hyprwm/hyprland-guiutils/archive/v%{version}/%{name}-%{version}.tar.gz
 Summary:	Hyprland GUI utilities
 URL:		https://github.com/hyprwm/hyprland-guiutils
