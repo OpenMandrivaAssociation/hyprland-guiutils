@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(hyprutils) >= 0.2.4
 BuildRequires:	pkgconfig(hyprtoolkit) >= 0.2.2
 BuildRequires:	pkgconfig(pixman-1)
 BuildRequires:	pkgconfig(libdrm)
+BuildRequires:	pkgconfig(xkbcommon)
 
 Obsoletes:      hyprland-qtutils
 
