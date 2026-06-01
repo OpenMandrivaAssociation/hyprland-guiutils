@@ -1,11 +1,11 @@
 Name:		hyprland-guiutils
 Version:	0.2.1
-Release:	3
+Release:	4
 Source0:	https://github.com/hyprwm/hyprland-guiutils/archive/v%{version}/%{name}-%{version}.tar.gz
 Summary:	Hyprland GUI utilities
 URL:		https://github.com/hyprwm/hyprland-guiutils
 License:	BSD-3-Clause
-Group:		Window Manager/Hyprland/Utility
+Group:		Utility
 
 BuildSystem:	cmake
 
