@@ -1,6 +1,6 @@
 Name:		hyprland-guiutils
-Version:	0.2.1
-Release:	4
+Version:	0.2.2
+Release:	1
 Source0:	https://github.com/hyprwm/hyprland-guiutils/archive/v%{version}/%{name}-%{version}.tar.gz
 Summary:	Hyprland GUI utilities
 URL:		https://github.com/hyprwm/hyprland-guiutils
@@ -10,12 +10,13 @@ Group:		Utility
 BuildSystem:	cmake
 
 BuildRequires:	cmake
+BuildRequires:  ninja
 BuildRequires:  pkgconfig(aquamarine) >= 0.9.5
 BuildRequires:  pkgconfig(cairo)
-BuildRequires:  pkgconfig(hyprgraphics) >= 0.2.0
+BuildRequires:  pkgconfig(hyprgraphics)
 BuildRequires:	pkgconfig(hyprlang) >= 0.6.0
-BuildRequires:	pkgconfig(hyprutils) >= 0.2.4
-BuildRequires:	pkgconfig(hyprtoolkit) >= 0.2.2
+BuildRequires:	pkgconfig(hyprutils) >= 0.10.2
+BuildRequires:	pkgconfig(hyprtoolkit) >= 0.4.0
 BuildRequires:	pkgconfig(pixman-1)
 BuildRequires:	pkgconfig(libdrm)
 BuildRequires:	pkgconfig(xkbcommon)
